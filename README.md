@@ -8,5 +8,8 @@ Tools, utilities and samples of Lex and Yacc stuff.
 # ./a.out < yourinputfile
 ```
 
+(Found an error? do u want to add something? something extra? -> fork-me and send a pull-request!)
+
+
 
 
