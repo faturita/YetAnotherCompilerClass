@@ -8,6 +8,10 @@ Tools, utilities and samples of Lex and Yacc stuff.
 # ./a.out < yourinputfile
 ```
 
+# Contents
+
+Root directory show sample LEX .l files.
+
 (Found an error? do u want to add something? something extra? -> fork-me and send a pull-request!)
 
 
