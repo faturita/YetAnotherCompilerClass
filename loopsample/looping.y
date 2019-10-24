@@ -44,6 +44,7 @@ E        : ID '=' E
           | E '-' '-'
           | ID  
           | NUM
+          { printf("Found %d\n", $1);   }
           ;
 
     

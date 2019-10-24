@@ -430,8 +430,8 @@ static const yytype_uint8 yyrline[] =
 {
        0,    16,    16,    17,    19,    20,    21,    22,    24,    25,
       26,    27,    30,    31,    32,    33,    34,    35,    36,    37,
-      38,    39,    40,    41,    42,    43,    44,    45,    46,    50,
-      51,    52,    53,    54,    55,    56,    57
+      38,    39,    40,    41,    42,    43,    44,    45,    46,    51,
+      52,    53,    54,    55,    56,    57,    58
 };
 #endif
 
@@ -1406,9 +1406,14 @@ yyreduce:
     {printf("Input accepted\n"); exit(0);}
     break;
 
+  case 28:
+#line 47 "looping.y"
+    { printf("Found %d\n", (yyvsp[(1) - (1)]));   }
+    break;
+
 
 /* Line 1267 of yacc.c.  */
-#line 1412 "y.tab.c"
+#line 1417 "y.tab.c"
       default: break;
     }
   YY_SYMBOL_PRINT ("-> $$ =", yyr1[yyn], &yyval, &yyloc);
@@ -1622,7 +1627,7 @@ yyreturn:
 }
 
 
-#line 59 "looping.y"
+#line 60 "looping.y"
 
 
 int yywrap()

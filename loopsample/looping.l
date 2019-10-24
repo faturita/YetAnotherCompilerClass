@@ -9,7 +9,7 @@ digit [0-9]
 
 [\t \n] 
 for             return FOR;
-{digit}+    return NUM;
+{digit}+    {yylval=atoi(yytext);return NUM;}
 {alpha}({alpha}|{digit})* return ID;
 "<="         return LE;
 ">="         return GE;

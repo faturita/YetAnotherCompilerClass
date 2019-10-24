@@ -745,7 +745,7 @@ return FOR;
 case 3:
 YY_RULE_SETUP
 #line 12 "looping.l"
-return NUM;
+{yylval=atoi(yytext);return NUM;}
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
