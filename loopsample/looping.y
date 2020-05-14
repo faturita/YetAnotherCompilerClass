@@ -15,6 +15,7 @@
     
 S         : ST {printf("Input accepted\n"); exit(0);}
 ST       : FOR '(' E ';' E2 ';' E ')' DEF
+            { printf("La expresion es: %d\n", $4);}
            ;
 DEF    : '{' BODY '}'
            | E';' 
@@ -28,6 +29,7 @@ BODY  : BODY BODY
            ;
         
 E        : ID '=' E 
+            { $$ = $3;}
           | E '+' E 
           | E '-' E
           | E '*' E
@@ -44,7 +46,7 @@ E        : ID '=' E
           | E '-' '-'
           | ID  
           | NUM
-          { printf("Found %d\n", $1);   }
+          { $$ = $1; printf("Found %d\n", $1);   }
           ;
 
     

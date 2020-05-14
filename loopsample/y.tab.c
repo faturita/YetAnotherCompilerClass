@@ -428,10 +428,10 @@ static const yytype_int8 yyrhs[] =
 /* YYRLINE[YYN] -- source line where rule number YYN was defined.  */
 static const yytype_uint8 yyrline[] =
 {
-       0,    16,    16,    17,    19,    20,    21,    22,    24,    25,
-      26,    27,    30,    31,    32,    33,    34,    35,    36,    37,
-      38,    39,    40,    41,    42,    43,    44,    45,    46,    51,
-      52,    53,    54,    55,    56,    57,    58
+       0,    16,    16,    17,    20,    21,    22,    23,    25,    26,
+      27,    28,    31,    33,    34,    35,    36,    37,    38,    39,
+      40,    41,    42,    43,    44,    45,    46,    47,    48,    53,
+      54,    55,    56,    57,    58,    59,    60
 };
 #endif
 
@@ -1406,14 +1406,24 @@ yyreduce:
     {printf("Input accepted\n"); exit(0);}
     break;
 
+  case 3:
+#line 18 "looping.y"
+    { printf("La expresion es: %d\n", (yyvsp[(4) - (9)]));}
+    break;
+
+  case 12:
+#line 32 "looping.y"
+    { (yyval) = (yyvsp[(3) - (3)]);}
+    break;
+
   case 28:
-#line 47 "looping.y"
-    { printf("Found %d\n", (yyvsp[(1) - (1)]));   }
+#line 49 "looping.y"
+    { (yyval) = (yyvsp[(1) - (1)]); printf("Found %d\n", (yyvsp[(1) - (1)]));   }
     break;
 
 
 /* Line 1267 of yacc.c.  */
-#line 1417 "y.tab.c"
+#line 1427 "y.tab.c"
       default: break;
     }
   YY_SYMBOL_PRINT ("-> $$ =", yyr1[yyn], &yyval, &yyloc);
@@ -1627,7 +1637,7 @@ yyreturn:
 }
 
 
-#line 60 "looping.y"
+#line 62 "looping.y"
 
 
 int yywrap()
