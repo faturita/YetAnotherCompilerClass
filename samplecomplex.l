@@ -2,6 +2,7 @@
 [\n\t ]			;
 
 -?(([0-9]+)|([0-9]*\.[0-9]+)([eE][-+]?[0-9]+)?)	{printf("Numero\n");}
+hola			{printf("Que tal");}
 .				ECHO ;
 %%
 int yywrap(void){
