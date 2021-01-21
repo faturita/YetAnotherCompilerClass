@@ -1,3 +1,4 @@
+# Compilers
 
 <p align="center">
     <img alt="node-express-starter" width="95%" height="auto" src="./images/computer_science_major.png" />
@@ -116,4 +117,3 @@ https://www.racket-lang.org/
 * Practical Foundations for Programming Languages, Herper, 2013
 * Programming Languages Application and Interpretation, Krishnamurthi, 2012
 * Hacker's Delight, Warren, 2003
-* 
