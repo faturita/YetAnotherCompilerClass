@@ -10,10 +10,11 @@ Tools, utilities and samples of Lex and Yacc stuff.
 
 # Contents
 
-Root directory show sample LEX .l files.
+* Root directory show sample LEX .l files.
+* [LanguagesAndCompilers.md](About Languages and Compilers)
 
 (Found an error? do u want to add something? something extra? -> fork-me and send a pull-request!)
 
-[LanguagesAndCompilers.md](About Languages and Compilers)
+
 
 
