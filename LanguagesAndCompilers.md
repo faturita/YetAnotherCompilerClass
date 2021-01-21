@@ -1,7 +1,7 @@
 # Compilers
 
 <p align="center">
-    <img alt="node-express-starter" width="95%" height="auto" src="./images/computer_science_major.png" />
+    <img alt="node-express-starter" width="60%" height="auto" src="./images/computer_science_major.png" />
 </p>
 
 ```quote
