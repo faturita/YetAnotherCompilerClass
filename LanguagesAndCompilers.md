@@ -8,12 +8,11 @@
 The art of telling another human being what one wants the computer to do.  Donald Knuth
 ```
 
+Let's start with this awesome introduction of what a compiler is (A Compiler From Scratch)[https://www.destroyallsoftware.com/screencasts/catalog/a-compiler-from-scratch].   This is not from the traditional perspective of a compiler as a translation machine based on a particular type of lexical analyzer.
 
-Let's start with this awesome introduction of what a compiler is https://www.destroyallsoftware.com/screencasts/catalog/a-compiler-from-scratch.   This is not from the traditional perspective of a compiler as a translation machine based on a particular type of lexical analyzer.
+(Why do we need new languages ?)[https://spectrum.ieee.org/view-from-the-valley/computing/hardware/david-patterson-says-its-time-for-new-computer-architectures-and-software-languages]
 
-
-[https://spectrum.ieee.org/view-from-the-valley/computing/hardware/david-patterson-says-its-time-for-new-computer-architectures-and-software-languages](Why do we need new languages ?)
-
+(Do we need a replacement for C)[https://erik-engheim.medium.com/do-we-need-a-replacement-for-c-3256a8b44814]
 
 # Compiler Components
 
