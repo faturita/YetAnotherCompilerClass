@@ -11,6 +11,7 @@
 %right UMINUS
 %left '!'
 
+
 %%
     
 S         : ST {printf("Input accepted\n"); exit(0);}

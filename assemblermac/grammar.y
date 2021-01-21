@@ -33,6 +33,7 @@ void assm(char *line);
 program : statements
 
             {
+
                 // This is the typical output sequence to return to the operating system.
                 // The return value is stored into ebx (2 in this case)
                 assm("push dword 0");
@@ -123,5 +124,6 @@ main()
 
     // Start the Parsing (yacc)
     yyparse();
+
 } 
 

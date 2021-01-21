@@ -1,6 +1,6 @@
 %option noyywrap
 
-%% 
+%%
 "alfa"		putchar('a');
 "alfabeto" 	printf("de la ‘a’ a la ‘z’");
 %%
