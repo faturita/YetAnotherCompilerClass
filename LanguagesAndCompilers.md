@@ -54,6 +54,12 @@ Instead of having a language, and create desing patterns on it, let's create a l
 
 There should be possible to create a generic language to create other languages (YACC?).
 
+
+## Parse JSON like a pro
+
+https://nee.lv/2021/02/28/How-I-cut-GTA-Online-loading-times-by-70/
+
+
 ## Python
 
 Why is python so successful ??
