@@ -61,7 +61,7 @@ https://nee.lv/2021/02/28/How-I-cut-GTA-Online-loading-times-by-70/
 
 ## OTC
 
-A very small compiler in C
+A very small compiler in C: https://bellard.org/otcc/
 
 ## Python
 
