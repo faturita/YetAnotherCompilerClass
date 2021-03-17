@@ -46,7 +46,12 @@ Minification is a key component of modern Web Dev.  A language could have minifi
 ## Short languages
 Many international programming competitions like IEEE eXtreme asks developers to produce good code, very fast.  To do that, we need languages that reduce the verbosity and allows very flexible boilerplate to produce code as quick as possible, mixing interactive and traditional mode.
 
-## Design Patter Language
+
+## Modern programming languages
+
+https://betterprogramming.pub/modern-languages-suck-ad21cbc8a57c
+
+## Design Pattern Language
 
 Instead of having a language, and create desing patterns on it, let's create a language that incorporates all the available design patterns into their core.
 
