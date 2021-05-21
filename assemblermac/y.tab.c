@@ -418,7 +418,7 @@ static const yytype_int8 yyrhs[] =
 /* YYRLINE[YYN] -- source line where rule number YYN was defined.  */
 static const yytype_uint8 yyrline[] =
 {
-       0,    33,    33,    50,    62,    64,    69
+       0,    33,    33,    51,    63,    65,    70
 };
 #endif
 
@@ -1317,6 +1317,7 @@ yyreduce:
         case 2:
 #line 35 "grammar.y"
     {
+
                 // This is the typical output sequence to return to the operating system.
                 // The return value is stored into ebx (2 in this case)
                 assm("push dword 0");
@@ -1332,7 +1333,7 @@ yyreduce:
     break;
 
   case 3:
-#line 51 "grammar.y"
+#line 52 "grammar.y"
     {
                 assm("mov  dword[z], eax");
                 assm("add  dword[z], 48");
@@ -1347,7 +1348,7 @@ yyreduce:
     break;
 
   case 5:
-#line 65 "grammar.y"
+#line 66 "grammar.y"
     {
 				// $1 is just the value assigned to NUMBER
 				printf("add 	eax, %d \n", (yyvsp[(1) - (1)]));
@@ -1355,7 +1356,7 @@ yyreduce:
     break;
 
   case 6:
-#line 70 "grammar.y"
+#line 71 "grammar.y"
     {
                 // Show a fixed hardcoded message.
                 assm("push dword mylen");    // Len of message
@@ -1368,7 +1369,7 @@ yyreduce:
 
 
 /* Line 1267 of yacc.c.  */
-#line 1372 "y.tab.c"
+#line 1373 "y.tab.c"
       default: break;
     }
   YY_SYMBOL_PRINT ("-> $$ =", yyr1[yyn], &yyval, &yyloc);
@@ -1582,7 +1583,7 @@ yyreturn:
 }
 
 
-#line 80 "grammar.y"
+#line 81 "grammar.y"
 
 
 void assm(char *line)
@@ -1629,6 +1630,7 @@ main()
 
     // Start the Parsing (yacc)
     yyparse();
+
 } 
 
 
