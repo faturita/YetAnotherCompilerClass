@@ -34,7 +34,7 @@ The runtime environment is a key component of the Compiler and lives in the inte
 
 ## Linking
 
-Related witht he runtime environment is the issue of linking with libraries, static or dynamic libraries.  This is a hug topic in operating systems as well.  Do we have to ship all the running code without sharing the stuff that is duplicated ?  Some time ago, the industry realized that was a bad idea and libraries were created for that.  Recently this idea has been challenged and containers are dominated the production stage (everything bundled inside a single file).
+Related witht he runtime environment is the issue of linking with libraries, static or dynamic libraries.  This is a hug topic in operating systems as well.  Do we have to ship all the running code without sharing the stuff that is duplicated ?  Some time ago, the industry realized that was a bad idea and libraries were created for that.  Recently this idea has been challenged and containers are dominating the production stage (everything bundled inside a single file).
 
 
 ## Memory Management
